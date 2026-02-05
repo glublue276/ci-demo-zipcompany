@@ -1,11 +1,11 @@
 from src.math_utils import add, sub, mul, div
 
-
+#Addition Test
 def test_add():
     assert add(1, 2) == 3
     assert add(2, 3) == 5
 
-
+#Subraction Test
 def test_subtract():
     assert sub(1, 2) == -1
 
