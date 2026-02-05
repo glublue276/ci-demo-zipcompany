@@ -2,11 +2,11 @@ name: CI
 on:
   push:
     branches:
-      - main
+      - master
       - feature-test
   pull_request:
     branches:
-      - main
+      - master
       - feature-test
 jobs:
   checks:
