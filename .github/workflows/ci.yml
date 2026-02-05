@@ -1,12 +1,13 @@
 name: CI
 on:
+  push:
+    branches:
+      - main
+      - feature-test
   pull_request:
     branches:
-      - master
-    push:
-      branches:
-        - master
-
+      - main
+      - feature-test
 jobs:
   checks:
     runs-on: ubuntu-latest
