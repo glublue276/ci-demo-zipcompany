@@ -10,6 +10,7 @@ def test_add():
 def test_subtract():
     assert sub(1, 2) == -1
     assert sub(1, 1) == 0
+    assert sub(2, 2) == 0
 
 
 def test_mul():
